@@ -91,17 +91,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\MemoryManager.cpp" />
-    <ClCompile Include="src\PrimitiveFigure.cpp" />
-    <ClCompile Include="src\ReadWriteMemory.cpp" />
     <ClCompile Include="src\RenderManager.cpp" />
+    <ClCompile Include="src\StackAllocator.cpp" />
     <ClCompile Include="src\testApp.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\MemoryManager.h" />
-    <ClInclude Include="src\PrimitiveFigure.h" />
-    <ClInclude Include="src\ReadWriteMemory.h" />
     <ClInclude Include="src\RenderManager.h" />
+    <ClInclude Include="src\StackAllocator.h" />
     <ClInclude Include="src\testApp.h" />
   </ItemGroup>
   <ItemGroup>

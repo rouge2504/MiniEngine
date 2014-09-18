@@ -1,6 +1,5 @@
 #pragma once
 #include "RenderManager.h"
-#include "ReadWriteMemory.h"
 
 #include "ofMain.h"
 
@@ -21,6 +20,5 @@ class testApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
-		RenderManager RM;
-		ReadWriteMemory RW;
+		
 };

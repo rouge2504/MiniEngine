@@ -4,21 +4,13 @@
     <ClCompile Include="src\testApp.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\main.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\PrimitiveFigure.cpp">
-      <Filter>src\Render</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ReadWriteMemory.cpp">
-      <Filter>src\ReadWrite</Filter>
-    </ClCompile>
-    <ClCompile Include="src\MemoryManager.cpp">
-      <Filter>src\ReadWrite</Filter>
-    </ClCompile>
     <ClCompile Include="src\RenderManager.cpp">
       <Filter>src\Render</Filter>
     </ClCompile>
+    <ClCompile Include="src\StackAllocator.cpp">
+      <Filter>src\StackAllocator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -27,25 +19,19 @@
     <Filter Include="src\Render">
       <UniqueIdentifier>{0d45e979-3de1-4413-83fb-fbbbbec2cb7e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\ReadWrite">
-      <UniqueIdentifier>{5f09fb20-fa6f-4e51-afd5-9bc2c01ceff9}</UniqueIdentifier>
+    <Filter Include="src\StackAllocator">
+      <UniqueIdentifier>{82b63fb6-eddb-4219-84bf-0c4d65e30b30}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\testApp.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\PrimitiveFigure.h">
-      <Filter>src\Render</Filter>
-    </ClInclude>
-    <ClInclude Include="src\ReadWriteMemory.h">
-      <Filter>src\ReadWrite</Filter>
-    </ClInclude>
-    <ClInclude Include="src\MemoryManager.h">
-      <Filter>src\ReadWrite</Filter>
-    </ClInclude>
     <ClInclude Include="src\RenderManager.h">
       <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StackAllocator.h">
+      <Filter>src\StackAllocator</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
