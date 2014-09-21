@@ -11,6 +11,9 @@
       <Filter>src\StackAllocator</Filter>
     </ClCompile>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\AssetManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -32,6 +35,9 @@
     </ClInclude>
     <ClInclude Include="src\StackAllocator.h">
       <Filter>src\StackAllocator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AssetManager.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
